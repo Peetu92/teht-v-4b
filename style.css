@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.otsikko{
+    text-align: center;
+    border: 5px;
+    border-style:dashed;
+    border-radius:5px;
+    margin: auto;
+    margin-left:auto;
+    margin-right:auto;
+    color:white;
+
+
+}
+
+.p{
+    text-align:center;
+    border:5px;
+    border-style: solid;
+    margin:15px;
+    padding:15px;
+    border-radius:20px;
+    margin-left:auto;
+    margin-right:auto;
+    color:white;
+    background-color: brown;
+}
+
+.linkki{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    color: white;
+    font-size: 220%;
+}
+.kuva {
+    display: block;
+    margin:auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.footer{
+    text-align: center;
+    color:white;
+    font-size: 200%;
+}
+.palkki{
+    color: white;
+    font-size: 200%;
+    margin-left: auto;
+    margin-right:auto;
+    margin: auto;
+
+    
+}
+
+figure {
+    border: thin #ff0000 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 75%;
+    margin: 10px;
+    margin: auto;
+}
+  
+  
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 5px;
+    text-align: center;
+}
+  
